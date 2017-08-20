@@ -143,3 +143,6 @@ PRODUCT_PACKAGES += \
 
 # include definitions for SDCLANG
 include vendor/aosip/sdclang/sdclang.mk
+
+BUILD_TRUSHISHU := true
+include vendor/shishu/common.mk
